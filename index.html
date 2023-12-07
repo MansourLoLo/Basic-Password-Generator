@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/icono.png" type="image/x-icon">
+    <title>Generador de Contraseñas</title>
+</head>
+<body>
+    
+    <section id="contenedor">
+        <section class="titulo">
+            <h3> Generador de Contraseñas</h3>
+        </section>
+        <section class="contrasenia">
+            <div class="clave">
+                <h3 id="contrasena"> 28i#m,PN¬uiy@48u </h3>
+            </div>
+        </section>
+        <section class="generador">
+            <section class="longitudContrasenia">
+                <p class="longitud"> Longitud de contraseña(8-16): <span class="digitos"> 10 </span> </p>
+                <input type="range" class="rangoLongitud" min="1" max="16" value="8" >
+            </section>
+            <section class="fortalezaContrasenia">
+                <p class="fortaleza"> Fortaleza: <span id="dificultad"> Dificil </span> </p>
+                <div class="Colordificultad"></div>
+            </section>
+            <section class="generar">
+                <button id="btngenerar"> Generar &RightArrow; </button>
+            </section>
+        </section>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
